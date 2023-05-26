@@ -1,8 +1,7 @@
 version: '3.9'
 services:
   k8s-cli:
-    image: dimmaryanto93/k8s-kubectl-helm:1.23.15-release
+    image: dimmaryanto93/k8s-kubectl-helm:1.23.15-alpine
     build:
       context: ./
       dockerfile: Dockerfile
-    entrypoint: ['']
